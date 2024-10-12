@@ -34,4 +34,4 @@ jobs:
       - name: Use Skopeo Tools Sync Image to Docker Hub
         run: |
           #!/usr/bin/env bash
-          skopeo copy docker://docker.io/hanchuanchuan/goinception:latest docker://registry.cn-shenzhen.aliyuncs.com/ljm-public/goinception:latest
+          skopeo copy docker://docker.io/gitlab/gitlab-ce:17.2.9-ce.0 docker://registry.cn-shenzhen.aliyuncs.com/curry-public/gitlab-ce:17.2.9-ce.0
