@@ -39,5 +39,7 @@ jobs:
           # jenkins
           # skopeo copy docker://docker.io/jenkins/jenkins:2.462.3-lts docker://registry.cn-shenzhen.aliyuncs.com/curry-public/jenkins:2.462.3-lts
           # jenkins
-          skopeo copy docker://docker.io/jenkins/jenkins:2.319.1-lts docker://registry.cn-shenzhen.aliyuncs.com/curry-public/jenkins:2.319.1-lts
+          # skopeo copy docker://docker.io/jenkins/jenkins:2.319.1-lts docker://registry.cn-shenzhen.aliyuncs.com/curry-public/jenkins:2.319.1-lts
+          # jenkins
+          skopeo copy docker://docker.io/jenkins/jenkins:2.480 docker://registry.cn-shenzhen.aliyuncs.com/curry-public/jenkins:2.480
 
